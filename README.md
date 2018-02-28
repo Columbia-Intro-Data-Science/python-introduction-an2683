@@ -1,3 +1,6 @@
 # python-introduction-an2683
 
-This is a readme file.
+
+AMPA E4990 HW1
+Student: Ayan Nandi
+Uni: an2683
