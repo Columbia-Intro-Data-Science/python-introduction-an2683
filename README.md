@@ -1,3 +1,6 @@
+Student: Ayan Nandi
+Email:	an2683@columbia.edu
+
 Final Project - Electric Demand FOrecasting
 
 App:
