@@ -1,9 +1,9 @@
 Student: Ayan Nandi
 Email:	an2683@columbia.edu
 
-Final Project - Electric Demand FOrecasting
+Final Project - Electric Demand Forecasting
 
-Presentation:
+Presentation on YouTube:
 
 https://www.youtube.com/watch?v=fO0ipYG_p9U&feature=youtu.be
 
