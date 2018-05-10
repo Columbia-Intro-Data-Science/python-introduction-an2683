@@ -3,6 +3,10 @@ Email:	an2683@columbia.edu
 
 Final Project - Electric Demand FOrecasting
 
+Presentation:
+
+https://www.youtube.com/watch?v=fO0ipYG_p9U&feature=youtu.be
+
 App:
 
 http://an2683.pythonanywhere.com/
