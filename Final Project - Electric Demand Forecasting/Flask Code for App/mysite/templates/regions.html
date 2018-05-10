@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New England Electric Demand Forecast</title>
+</head>
+<body>
+    <h2>Welcome to Electric Demand Forecasting!</h2>
+    <h3>Please select Load Region and Date:</h3>
+<form class="form-inline" method="POST" action="{{ url_for('query_results') }}">
+  <div class="form-group">
+    <div class="input-group">
+        <span class="input-group-addon"></span>
+            <select name="regions" method="GET" action="/">
+              <option value="{{regions[0]}}" selected>{{regions[0]}}</option>
+                {% for regions in regions[1:] %}
+                <option value="{{regions}}">{{regions}}</option>
+                {% endfor %}
+            </select>
+            <select name="dates" method="GET" action="/">
+                <option value="{{dates[0]}}" selected>{{dates[0]}}</option>
+                {% for dates in dates[1:] %}
+                <option value="{{dates}}">{{dates}}</option>
+          {% endfor %}
+        </select>
+    </div>
+    <button type="submit" class="btn btn-default">Query MySql DB</button>
+  </div>
+</form>
+</body>
+</html>

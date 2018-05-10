@@ -1,0 +1,29 @@
+<doctype html>
+<head>
+<style>
+table, th, td {
+    border: 1px solid black;
+}
+</style>
+
+</head>
+<body>
+<h2>New England Demand Forecast</h2>
+<table style="width:100%">
+    <tr>
+        <th>Date</th>
+        <th>HE</th>
+        <th>Load Zone</th>
+        <th>Demand Forcast (MW)</th>
+        <th>Temp Forecast (deg F)</th>
+    </tr>
+    {% for comment in comments %}
+    <tr>
+        <td>{{comment.Date}}</td>
+        <td>{{comment.HE}}</td>
+        <td>{{comment.Zone}}</td>
+        <td>{{comment.Forecast_Demand_MW}}</td>
+        <td>{{comment.Forecast_Temp_DryBulb_F}}</td>
+    </tr>
+    {% endfor %}
+</body>
